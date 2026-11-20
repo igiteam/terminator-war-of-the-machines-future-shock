@@ -1,3 +1,31 @@
+# terminator-war-of-the-machines-future-shock
+## Terminator War of the Machines - Terminator: Future Shock Remake
+A total conversion mod for Terminator: War of the Machines that rebuilds the free-roam post-Judgment Day wasteland of Terminator: Future Shock (1995) with its SKYNET-infested open-world Los Angeles, drivable vehicles, and unscripted Terminator combat.
+
+## Github Treeview
+[https://treegit.macosxjs.com/?url=igiteam/terminator-war-of-the-machines-future-shock](https://treegit.macosxjs.com/?url=igiteam/terminator-war-of-the-machines-future-shock)
+
+## Github Tree Api Direct JSON
+[https://api.github.com/repos/igiteam/terminator-war-of-the-machines-future-shock/git/trees/main?recursive=1](https://api.github.com/repos/igiteam/terminator-war-of-the-machines-future-shock/git/trees/main?recursive=1)
+
+## Base gameplay
+[![Terminator - Future Shock: How it runs on a 1994 PC — Pentium 90 MHz / Mach64 / AWE32 / Roland SC-88](https://img.youtube.com/vi/9Pyu9pDM3g0/maxresdefault.jpg)](https://ytembed.macosxjs.com/?OVB5dTlwRE0zZzA)
+
+[![Terminator 3: War of the Machines (2003) - PC Gameplay 4k 2160p / Win 10](https://img.youtube.com/vi/ifReXyQERTc/maxresdefault.jpg)](https://ytembed.macosxjs.com/?aWZSZVh5UUVSVGM)
+
+
+## WS11WineCX20.0.4 (MacOSX Big Sur 32bit)
+[WS11WineCX20.0.4.tar.7z](https://github.com/vitor251093/porting-kit-engines/releases/download/wineskin/WS11WineCX20.0.4.tar.7z)
+
+[![wine windows games on macosx](https://raw.githubusercontent.com/igiteam/igi1-macbook-3d-workstation/refs/heads/main/wine-engine-config.png)](https://github.com/igiteam/wine_engines)
+
+## Reference links
+[https://archive.org/details/terminator-3-war-of-the-machines](https://archive.org/details/terminator-3-war-of-the-machines)
+
+[https://archive.org/details/the-terminator-future-shock-mr-abandonware](https://archive.org/details/the-terminator-future-shock-mr-abandonware)
+
+---
+
 <p align="center">
   <img
     src="https://github.com/JacoboGutierrez/JacoboGutierrez/blob/main/t3-thumbnail-05.png?raw=true"
@@ -54,47 +82,38 @@ The source code is distributed under the MIT License. This license applies to T3
 
 ---
 
-# Español
 
-**Versión 0.6.12**  
-Herramienta experimental de extracción, conversión y gestión de mods para **Terminator 3: War of the Machines (PC)**.
-<br>
-$\color{yellow}\textsf{Nota: La primera vez que ejecutes el juego después de parchear el ejecutable, el juego fallará y automaticamente se reiniciará.}$
-$\color{yellow}\textsf{Este comportamiento es esperado y solo pasará una vez, a menos que instales o modifiques un mod que parchee el motor del juego.}$
-<br>
+## Dev Environment
 
-## ¿Qué es T3-ModTools?
+**Official White Wii Remote With Nunchuk — Tested And Working — £14.99**
+[https://www.ebay.co.uk/itm/800847189353](https://www.ebay.co.uk/itm/800847189353)
 
-T3-ModTools es una aplicación para Windows diseñada para facilitar la inspección de los archivos del juego y proporcionar una forma más segura y organizada de instalar y combinar mods.
+**Infrared Sensor Bar USB for Wii Emulator Remote Motion Detection Setup — £6.69**
+[https://www.ebay.co.uk/itm/227423830875](https://www.ebay.co.uk/itm/227423830875)
 
-La aplicación posee dos modos principales:
+**Apple MacBook Pro Retina 15in (2014) i7 2.8GHz 16GB 1TB SSD GT 750M — £120.30**
+[https://www.ebay.co.uk/itm/800844561513](https://www.ebay.co.uk/itm/800844561513)
 
-- **Extracción de assets** lee directamente los archivos COD del juego, compatibles con ZIP, y extrae el contenido seleccionado, como personajes, vehículos, armas, mapas, modelos de menú, efectos, audio y animaciones. También puede crear conversiones de trabajo de modelos compatibles, incluidos archivos OBJ/MTL para geometría estática y archivos glTF 2.0 para modelos riggeados compatibles.
-- **Modding** administra proyectos de mods independientes, su estado de activación y su orden de carga. Combina los archivos de los proyectos activados en `mods/Mods.Cod` y crea un `T3_Modded.exe` separado que carga el paquete compilado antes que los archivos originales del juego.
+**WS11WineCX20.0.4 (Wine engine)**
+[https://igiteam.github.io/wine_engines/](https://igiteam.github.io/wine_engines/)
 
-El archivo `T3.exe` original no es modificado. Cada compilación vuelve a crear `T3_Modded.exe` a partir del ejecutable original, por lo que el juego sin modificaciones continúa disponible.
+**Official Genuine Sony PS3 PlayStation 3 DualShock 3 Wireless Controller Black — £19.99**
+[https://www.ebay.co.uk/itm/840031043465](https://www.ebay.co.uk/itm/840031043465)
 
-## Funciones principales
+**Amazon Basics 4K HDMI Cable 3m — 18Gbps High Speed with Ethernet, 4K@60Hz, 2160p — £8.44**
+[https://www.ebay.co.uk/itm/327352257557](https://www.ebay.co.uk/itm/327352257557)
 
-- Lee `Game.cod`, archivos COD de parches, carpetas de instalación del juego y copias de seguridad compatibles.
-- Extrae assets originales del juego por categorías.
-- Convierte geometría SCA, LOD y DET compatible a OBJ y MTL.
-- Exporta modelos riggeados compatibles de personajes, armas y vehículos a glTF 2.0.
-- Extrae animaciones ANM originales y genera información sobre ellas.
-- Incluye complementos experimentales de Blender para procesos compatibles de importación y exportación de modelos y animaciones de T3.
-- Crea y administra proyectos de mods separados.
-- Permite activar, desactivar y ordenar mods mediante un sistema de orden de carga.
-- Resuelve rutas de assets duplicadas según el orden de carga al crear el paquete combinado.
-- Compila los archivos de los proyectos activados en `mods/Mods.Cod`.
-- Genera `T3_Modded.exe` sin sobrescribir el ejecutable original.
-- Admite manifiestos opcionales y conservadores de parches del ejecutable, y detiene la compilación cuando dos modificaciones incompatibles intentan escribir sobre la misma zona.
+**wiimote_nunchuk_macosx**
+[https://github.com/igiteam/wiimote-nunchuk](https://github.com/igiteam/wiimote-nunchuk)
 
-## Propósito y alcance
+**xbox360_input_gui_py**
+[https://github.com/igiteam/xbox360_input_gui_py](https://github.com/igiteam/xbox360_input_gui_py)
 
-T3-ModTools está destinado al modding personal, la preservación y la investigación de interoperabilidad con una copia legal del juego. No evade DRM, cifrado, autenticación en línea ni sistemas antitrampas.
+**logitec_mx_mouse_3_macos**
+[https://github.com/igiteam/logitec_mx_mouse_3_macos](https://github.com/igiteam/logitec_mx_mouse_3_macos)
 
-Este proyecto es experimental. Algunos assets o procesos pueden necesitar pruebas específicas, y agregar contenido completamente nuevo puede requerir configuración o investigación del motor más allá del reemplazo normal de archivos.
+**igi1-macbook-3d-workstation**
+[https://github.com/igiteam/igi1-macbook-3d-workstation](https://github.com/igiteam/igi1-macbook-3d-workstation)
 
-Este README solamente describe la función de la aplicación. Para consultar las instrucciones de instalación y los tutoriales de modding, revisa la [Guía de modding de T3](https://github.com/JacoboGutierrez/T3-ModTools/blob/main/T3-ModTools/Documentation/T3-Modding-Guide.pdf) incluida.
+---
 
-El código fuente se distribuye bajo la licencia MIT. Esta licencia se aplica a T3-ModTools, no a los assets extraídos del juego. Los assets del juego continúan siendo propiedad de sus respectivos titulares de derechos.
