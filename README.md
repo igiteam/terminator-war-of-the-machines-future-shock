@@ -1,12 +1,12 @@
-# terminator-war-of-the-machines-future-shock
+# terminator-war-of-the-machines-terminator-future-shock
 ## Terminator War of the Machines - Terminator: Future Shock Remake
 A total conversion mod for Terminator: War of the Machines that rebuilds the free-roam post-Judgment Day wasteland of Terminator: Future Shock (1995) with its SKYNET-infested open-world Los Angeles, drivable vehicles, and unscripted Terminator combat.
 
 ## Github Treeview
-[https://treegit.macosxjs.com/?url=igiteam/terminator-war-of-the-machines-future-shock](https://treegit.macosxjs.com/?url=igiteam/terminator-war-of-the-machines-future-shock)
+[https://treegit.macosxjs.com/?url=igiteam/terminator-war-of-the-machines-terminator-future-shock](https://treegit.macosxjs.com/?url=igiteam/terminator-war-of-the-machines-terminator-future-shock)
 
 ## Github Tree Api Direct JSON
-[https://api.github.com/repos/igiteam/terminator-war-of-the-machines-future-shock/git/trees/main?recursive=1](https://api.github.com/repos/igiteam/terminator-war-of-the-machines-future-shock/git/trees/main?recursive=1)
+[https://api.github.com/repos/igiteam/terminator-war-of-the-machines-terminator-future-shock/git/trees/main?recursive=1](https://api.github.com/repos/igiteam/terminator-war-of-the-machines-terminator-future-shock/git/trees/main?recursive=1)
 
 ## Base gameplay
 [![Terminator - Future Shock: How it runs on a 1994 PC — Pentium 90 MHz / Mach64 / AWE32 / Roland SC-88](https://img.youtube.com/vi/9Pyu9pDM3g0/maxresdefault.jpg)](https://ytembed.macosxjs.com/?OVB5dTlwRE0zZzA)
